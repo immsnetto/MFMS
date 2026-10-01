@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include <string.h>
 #include "utils.h"
 
 void clearInputBuffer(void)
@@ -55,5 +56,35 @@ double readPositiveDouble(const char *prompt)
         }
 
         return value;
+    }
+}
+
+void readNonEmptyString(const char *prompt, char *dest, int size)
+{
+    size_t len;
+
+    while (1) {
+        printf("%s", prompt);
+
+        if (fgets(dest, size, stdin) == NULL) {
+            printf("Input error.\n");
+            dest[0] = '\0';
+            return;
+        }
+
+        len = strlen(dest);
+
+        if (len > 0 && dest[len - 1] == '\n') {
+            dest[len - 1] = '\0';
+        } else {
+            clearInputBuffer();
+        }
+
+        if (strlen(dest) == 0) {
+            printf("Input cannot be empty. Please try again.\n");
+            continue;
+        }
+
+        return;
     }
 }
