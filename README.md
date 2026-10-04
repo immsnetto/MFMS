@@ -20,9 +20,9 @@
 
 ### Roles
 - Immanuel Petrus: main.c, utils, Git coordination
-- Employees: 
-- Budget: 
-- Suppliers: 
-- Assets: 
-- Reports: 
-- Junior Amwele (223122513) :Testing/docs: see TESTING.md and test_budget.c
+- Jonathan Kapapelo: Employees
+- Tsepang Ngubeni: Budget
+- Serogwe Didintle: Suppliers
+- Tanaka Veremu: Assets 
+- Walde Shidolo: Reports 
+- Sakaria Amwele: Testing/docs 
