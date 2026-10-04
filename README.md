@@ -25,4 +25,4 @@
 - Suppliers: 
 - Assets: 
 - Reports: 
-- Testing/docs: see TESTING.md and tests/ (Budget unit test + manual test plan)
+- Junior Amwele (223122513) :Testing/docs: see TESTING.md and test_budget.c

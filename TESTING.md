@@ -7,13 +7,6 @@ tested, what is currently covered, and the manual test cases for each module.
 
 The project is C99 and is intended to build with:
 
-```
-gcc -std=c99 -Wall -Wextra *.c -o mfms
-```
-
-> NOTE: A C compiler (e.g. `gcc` via MinGW-w64) must be installed and on the
-> `PATH`. On the current development machine no compiler was detected, so the
-> commands below must be run in an environment that has one installed.
 
 ## 2. Current implementation status
 
