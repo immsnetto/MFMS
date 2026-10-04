@@ -25,4 +25,4 @@
 - Suppliers: 
 - Assets: 
 - Reports: 
-- Testing/docs: 
+- Testing/docs: see TESTING.md and tests/ (Budget unit test + manual test plan)
