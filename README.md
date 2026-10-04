@@ -20,9 +20,9 @@
 
 ### Roles
 - Immanuel Petrus: main.c, utils, Git coordination
-- Employees: 
-- Budget: 
-- Suppliers: 
-- Assets: 
-- Reports: 
-- Testing/docs: 
+- Jonathan kapapelo: Employees
+- Tsepang Ngubeni: Budget
+- Serogwe Didintle: Suppliers
+- Tanaka Veremu: Assets 
+- Walde Shidolo: Reports 
+- Sakaria Amwele: Testing/docs 
